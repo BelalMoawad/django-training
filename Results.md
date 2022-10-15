@@ -1,21 +1,21 @@
 Create some artists :
 
-   from artists.models import Artist
+      from artists.models import Artist
    
-   hamza = Artist(stage_name="Hamza Namera", 
+         hamza = Artist(stage_name="Hamza Namera", 
                   social_link_field = "https://www.instagram.com/hamzanamira/"
                  )  
-   hamza.save()
+         hamza.save()
   
-   amalmaher = Artist(stage_name="Amal Maher",
+         amalmaher = Artist(stage_name="Amal Maher",
                       social_link_field = "https://www.instagram.com/amalmaherofficial/"
                      )
-   amalmaher.save()
+         amalmaher.save()
    
-   ahmed = Artist(stage_name="Ahmed shepa",
+         ahmed = Artist(stage_name="Ahmed shepa",
                   social_link_field = "https://www.instagram.com/ahmedshebaofficial/"
                  )
-   ahmed.save()
+         ahmed.save()
 
 List down all artists :
 
