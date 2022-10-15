@@ -1,11 +1,12 @@
-1 - create some artists
->>> from artists.models import Artist
->>> hamza = Artist(stage_name="Hamza Namera", social_link_field = "https://www.instagram.com/hamzanamira/")  
->>> hamza.save()
->>> amalmaher = Artist(stage_name="Amal Maher", social_link_field = "https://www.instagram.com/amalmaherofficial/")
->>> amalmaher.save()
->>> ahmed = Artist(stage_name="Ahmed shepa",social_link_field = "https://www.instagram.com/ahmedshebaofficial/")
->>> ahmed.save()
+Create some artists :
+
+ from artists.models import Artist
+ hamza = Artist(stage_name="Hamza Namera", social_link_field = "https://www.instagram.com/hamzanamira/")  
+ hamza.save()
+ amalmaher = Artist(stage_name="Amal Maher", social_link_field = "https://www.instagram.com/amalmaherofficial/")
+ amalmaher.save()
+ ahmed = Artist(stage_name="Ahmed shepa",social_link_field = "https://www.instagram.com/ahmedshebaofficial/")
+ ahmed.save()
 
 2 - list down all artists
 >>> Artist.objects.all()
